@@ -1,16 +1,19 @@
 h1{
-    color:red; 
+    color:blanchedalmond; 
     text-align: center;
 }
 
 .name{
-    color:ghostwhite;
+    font-size: 50px;
+    color:blanchedalmond;
     text-align: left;
-    padding-left: 200px;
+    padding-left: 700px;
     margin-top: -200px;
+   
 }
 .flex-container{
     display: flex;
+    justify-content: space-between;
 }
 .fondo{
     background-image: url(css/fondo.jpg);
@@ -46,7 +49,6 @@ h1{
 }
 
 .foto{
-    border-color: blue;
     width:250px;
     margin: 2% 70%;
         
@@ -58,4 +60,22 @@ li{
 }
 p{
     color: white;
+}
+
+h2{
+    color:aliceblue;
+}
+
+.sobre{
+    margin-top: 10px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: large;
+}
+
+.hh{
+    font-size: x-large;
+    color:ghostwhite;
+    text-align: left;
+    padding-left: 550px;
 }
