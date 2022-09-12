@@ -1,5 +1,6 @@
 h1{
     color:red; 
+    text-align: center;
 }
 
 .name{
@@ -10,28 +11,36 @@ h1{
     
 }
 .flex-container{
-    background-color: bisque;
+  
     display: flex;
 }
 .header{
-    background-color: bisque;
+    
     border: 1px solid black;
     padding-bottom: 100px;
     margin-bottom: 10px;
 }
 
+.info{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    width:500px ;
+    margin-right: 100px;
+    line-height: 30px;
+}
 .contenedor{
     border: 1px solid black;
     margin-bottom: 10px;
-    margin-right: 50px;
+    margin-right: 100px;
     padding-right: -100px;
-    width:300px ;
+    width:500px ;
 }
 
 .contenedor1{
     border: 1px solid black;
-    width:300px ;
+    width:500px ;
     margin-bottom: 10px;
+    line-height: 30px;
     
 }
 
@@ -40,4 +49,8 @@ h1{
     width:250px;
     margin: 2% 70%;
         
+}
+
+.li{
+    text-align: center;
 }
